@@ -2,7 +2,10 @@
 Datasets of definition-terms pairs
 wiki_definitions_improved.xml.gz
 
-* To quickly view the contents use the `zless` command e.g. `zless wikipedia/wiki_definitions_improved.xml.gz` 
+* To quickly view the contents use the `zless` command e.g. 
+   ```bash
+   zless wikipedia/wiki_definitions_improved.xml.gz
+   ```
 * This repo includes data from the wikipedia, planetmath and the stacks project websites.
 * On way to open the files using the `lxml` Python library is the following:
     ```python
